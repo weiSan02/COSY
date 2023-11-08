@@ -1,0 +1,97 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .top-right{
+      position: absolute;
+      top:8px;
+      right:6px;
+      font-size:15px;
+  }
+
+    .top-left {
+      position: absolute;
+      top:8px;
+      left: 28px;
+      font-size:15px;
+    }
+
+    .bottom-right{
+      position:absolute;
+      bottom:8px;
+      right:60px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:36px;
+      color:white;
+
+    }
+
+    .bottom-left{
+      position:absolute;
+      bottom:8px;
+      left:70px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:36px;
+        color:white;
+    }
+    
+    .bottom-center{
+      position:absolute;
+      bottom:8px;
+      left:420px;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:36px;
+      color:white;
+    }
+
+    h3{
+      color:white;
+      text-decoration:underline;
+    }
+
+    h1{
+      padding:1%;
+      font-size:32pt;
+      text-align:center;
+      color:rgb(17, 2, 2);    
+      background-image:url("space2.png");
+      border:10px solid rgba(0, 0, 0, 0.336);
+    }
+
+    .backgroundpromo{
+      margin-bottom: 5%;
+      background-image:url("space.png");
+      background-size: cover;
+    }
+    .img{
+      border:5px,solid,#555;
+      position:relative;
+      bottom:50px;
+      right:140px;
+     
+    }
+
+    .img2{
+      position:relative;
+      bottom:50px;
+      left:30px;
+    }
+    .img3{
+      position:relative;
+      bottom:50px;
+      left:170px;
+    }
+
+    .button{
+      font-size: 28px;
+    }

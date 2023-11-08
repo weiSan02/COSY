@@ -1,0 +1,121 @@
+/*
+   COSY Style Sheet
+   Author: Joey Kok Yen Ni
+   
+   Filename: co_pro-details.css
+
+*/
+
+
+.section-header {
+    border:15px solid rgba(0, 0, 0, 0.048);
+    text-align: center;
+    font-size: 2.5em;
+    background-image: url(marble.jpg);
+    background-attachment: fixed;
+    padding:2%;
+    font-variant-caps: small-caps;
+}
+
+.back{ 
+    text-decoration: none;
+    font-size:25px;
+    padding-left:4%;
+}
+.back a{
+    color:rgb(30,49,46);
+}
+
+.back a:hover{
+    color:grey;
+}
+     
+   
+   footer{
+    clear:both;
+  }
+
+.pro-image{
+    float:left;
+    display:flex;
+    border:10px solid rgb(205, 209, 247);
+    max-width:40%;
+    max-height:80%;
+    margin:5%;
+    margin-bottom:10%;
+}
+      
+.pro-image > img{
+    padding:10px;
+    padding-left:15px;
+    max-width:90%;
+    max-height:100%;
+
+}
+.pro-description,.button{
+  display:flex;
+  flex-wrap:wrap;
+  margin:5%;
+  width:40%;
+
+}
+.pro-description{
+  background-color: rgb(225, 234, 238);
+  font-size:130%;
+}
+.button{
+  margin-left:30%;
+  margin-bottom:15%;
+}
+.cart{
+  margin-left:10%;
+  width: 120px;
+  height: 60px;
+}
+.buy{
+ margin-left:10%;
+  width: 120px;
+  height: 60px;
+}
+
+table,th,td{
+  width:100%;
+  border-spacing:10px;
+}
+th,td{
+  width:200px;
+  text-align:left;
+}
+button{
+  cursor: pointer;
+  width: 150px;
+  height: 70px;
+  border-color: rgb(134,150,167);
+  border-radius: 12px;
+  font-family: "URW Chancery L", cursive;
+}
+button a{
+  color:rgb(14, 62, 78);
+  text-decoration:none;
+  font-weight: 700;
+}
+button a:hover{
+  text-decoration: rgb(134,150,167);
+    color: rgb(101,101,101);
+
+}
+@media only screen and (max-width: 797px) {
+
+.pro-description{
+  margin-top:0;
+  width:80%;
+  margin-left:10%;
+  background-color: rgb(225, 234, 238);
+  font-size:120%;
+}
+.pro-image{
+  margin-left:30%;
+  margin-bottom:5%;
+}
+
+}

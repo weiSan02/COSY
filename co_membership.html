@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Web Design and Development Assignment
+    
+   
+    Author: Diong Zi Yu
+    Date: 28/7/2020  
+
+    Filename: co_membership.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="keywords" content="fashion, clothes, Cosy, attire">
+   <link rel="icon" type="image/png" href="smalllogo.png">
+   <title>MEMBERSHIP</title>
+   
+   <link href="co_styles1.css" rel="stylesheet" />
+   <link href="co_styles2.css" rel="stylesheet" />
+   <link href="co_membership.css" rel="stylesheet" />
+
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <style>
+   </style>
+  </head>
+
+ <body>
+    <header>
+     <div>
+       <ul>
+         <li>
+           <a href="co_profile.html"><img src="login.png" alt="loginIcon" width="40px" height="40px" class="loginicon" ></a>
+           <a href="co_addtocart.html" class="carticon">
+             <ion-icon name="cart-outline"></ion-icon> Cart
+             <span class="cartIcon">0</span>
+           </a>   
+         </li>
+       </ul>
+       <img src="CosyLogo.png" alt="Cosy" width="395" height="130" class="logo" usemap="#logomap"/>
+       <map id="logomap" name="logomap">
+         <area shape="rect" coords="0,0,471,138" alt="cosylogo" href="co_homepage.html" target="_blank">
+       </map>
+    
+       <nav >
+         <ul>
+           <li><a href="co_homepage.html"><img src="homeicon.png"></li>
+           <li><a href="co_kids.html">| KIDS |</a></li>
+           <li><a href="co_womenspg1.html">| WOMEN |</a></li>
+           <li><a href="co_mens.html">| MEN |</a></li>
+           <li><a href="co_b&a.html">| BAGS & ACCESSORIES |</a></li>
+           <li><a href="co_myaccount.html">| MY ACC |</a></li>
+         </ul>
+       </nav>
+     </div>  
+   </header>
+
+    <h3 class="c">Membership</h3>
+    <h1>Do you want to become one of us? Let's join and become one of the members!</h1>
+
+   <div class="row1">
+     <div class="col-2-5 row2-col1">
+       <h3 class="size">How to apply for membership? </h3>
+       <ol class="opacityBG">
+          <li>Click <a href="co_applicationform.html" class="buttonHere"><i>here</i></a></li>
+          <li>Fill in your name, age, birthday date, IC number, email address, contact number, gender </li>
+          <li>Choose the membership type (Adults/Teenagers/Kids).</li>
+          <li>Upload one copy of your IC card as the supporting documentation.</li>
+          <li>Click 'Submit'.</li>
+          <li>You will receive a verification email that contains your member ID and one verification number.</li>
+       </ol>
+       <video controls tabindex="0">
+         <source src="memberapplication.mp4" type="video/mp4">
+         <source src="memberapplication.webm" type="video/webm">
+         <source src="memberapplication.ogg" type="video/ogg">
+         <track kind="subtitles" label="subtitles" srclang="en" src="co_captions.vtt" default />
+         <object data=“url” type=“application/x-shockwave-flash”  width="0" height="0">
+          <param name="video" value="video" />
+          </object>
+       </video>
+     </div>
+    
+     <div class="col-3-5">
+       <div class="row2-col2-row1">
+         <table>
+           <caption>Information About Our Membership</caption>
+           <tr>
+             <th>Type</th>
+             <th>Payment / year</th>
+             <th>Discount</th>
+           </tr>
+         
+           <tr>
+             <td>Adults</td>
+             <td>RM60</td>
+             <td>8%</td>
+           </tr>
+
+           <tr>
+             <td>Teen</td>
+             <td>RM50</td>
+             <td>12%</td>
+           </tr>
+         
+           <tr>
+             <td>Kids</td>
+             <td>RM40</td>
+             <td>15%</td>
+           </tr>
+         </table>
+       </div>
+
+       <article>
+         <div class="row2-col2-row2">
+           <h3 class="size">BE AWARE!! </h3>
+           <ol class="opacityBG">
+             <li>Your information filled in the form <strong>MUST</strong> be authentic and correct. </li>
+             <li>No fake information is allowed. </li>
+             <li>Your email used must be the email you used to sign up your account on our website.</li>
+             <li>The verification number is required for point collecting system</li>
+             <li>Teenagers must be between 13 and 19 years old. </li>
+             <li>Kids must be 12 years old or below. </li>
+           </ol>
+         </div>
+       </article>
+     </div>  
+   </div>
+
+   <div class="row3">
+     <h3 class="size">Point Collecting System</h3>
+     <p class="opacityBG">Point Collecting System was created to encourage our customers to apply for membership and purchase our products. 
+       In other words, this system is only available for our members. Through purchasing our products up to certain prices, 
+       you will obtain points. For example, 1 point is rewarded for each RM10 of purchase. Once you reach 100 points, you 
+       will get the opportunity to join our lucky draw. The top three prizes in the lucky draw, which will be our best-selling 
+       products, alter every month. In addition, once you successfully collect 1000 points, you will receive a mysterious 
+       grand prize. In order to get the prize, you are to send us an email. You must state the following information in your email:
+
+       <ol class="opacityBG">
+         <li style="list-style-type:square">Name (same as IC)</li>
+         <li style="list-style-type:square">Member ID</li>
+         <li style="list-style-type:square">Verification number</li>
+       </ol>  
+     </p>
+   </div>  
+
+   <footer>
+     <div>
+       <h3>CUSTOMER SERVICE</h3>
+        &nbsp;&nbsp;&nbsp;&nbsp;Tel: <a href="tel:+6034567891">+6034567891</a><br/>
+        Email: <a href="mailto:cosy20@gmail.com">cosy20@gmail.com</a>
+     </div>
+ 
+      <div>
+       <h3 class="b">HELP</h3>
+       <ul>
+         <li id="a"><a href="co_faq.html" >FAQs</a></li>
+         <li id="a"><a href="co_membership.html" >Membership</a></li>
+         <li id="a"><a href="co_customerfdback.html" >Customer Feedback</a></li>
+       </ul>
+     </div>
+ 
+     <div>
+       <h3 class="b">DELIVERY</h3>
+       <ul>
+         <li id="a"><a href="co_pd.html">Product delivery</a></li>
+       </ul>
+
+       <a href="co_aboutus.html" class="about">ABOUT US</a>
+     </div>
+ 
+     <div>
+       <h3 class="b">STORE LOCATION</h3>
+ 
+       <address>
+         No.20, Jalan Jaya, 50050,<br/> 
+         Wilayah Persekutuan.
+       </address>
+
+        <p id="right">COME AND FOLLOW US:</p>
+        <a href="https://www.facebook.com/Cosy-218555486259797/"><img src="facebook.png" alt="FB icon" id="FB"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram icon" id="Insta"></a>
+        <a href="#"><img src="twitterIcon.png" alt="Twitter icon" id="Twitter"></a>
+       </div>
+     <div class="footer-bottom">&copy; Cosy.com</div>
+   </footer>
+
+   <script src="girl.js"></script>
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    
+ </body>
+
+</html>

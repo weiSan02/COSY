@@ -1,0 +1,71 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+    table,td,th{
+        border:1px solid black;
+        border-collapse:collapse;   
+        padding:15px;
+    }
+
+    .tablebg img{
+        padding-left:33%;
+    }
+
+    .tablebg{
+        background-image:url("space.png");
+        background-size:cover;
+    }
+
+    button a{
+        text-decoration: none;
+        color: black;
+    }
+    button a:hover {
+        text-decoration: underline;
+        color: rgb(30,49,46);
+    }
+
+
+.addtocart{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+    border-color: rgb(134,150,167);
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: "URW Chancery L", cursive;
+    width: 200px;
+    height: 80px;
+}
+
+.addtocart:hover{
+    text-decoration: rgb(134,150,167)underline;
+    color: rgb(101,101,101);
+
+}
+
+.buynow{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-color: rgb(134,150,167);
+    border-radius: 12px;
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    font-family: "URW Chancery L", cursive;
+}
+
+.buynow:hover{
+    text-decoration: rgb(134,150,167)underline;
+    color: rgb(101,101,101);
+
+}
+    

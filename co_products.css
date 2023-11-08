@@ -1,0 +1,138 @@
+/*
+   COSY Style Sheet
+   Author: Joey Kok Yen Ni
+   
+   Filename: co_products.css
+
+*/
+
+
+.section-header {
+    border:15px solid rgba(0, 0, 0, 0.048);
+    text-align: center;
+    font-size: 2.5em;
+    background-image: url(marble.jpg);
+    background-attachment: fixed;
+    padding:2%;
+    font-variant-caps: small-caps;
+}
+
+.back{
+    text-decoration: none;
+    font-size:25px;
+    padding-left:4%;
+}
+.back a{
+    color:rgb(30,49,46);
+}
+
+.back a:hover{
+    color:grey;
+}
+
+.container,
+.products-container{
+ 
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+
+
+.image{
+    margin-right: 20px;
+    margin-left:20px;
+    position:relative;
+    overflow: hidden;
+}
+
+.add-cart{
+    position:absolute;
+    width:100%;
+    background-color:rgb(30,49,46);
+    transition:all 0.3s ease-in-out;
+    opacity: 0;
+    cursor:pointer;
+    text-align: center;
+}
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8,
+.image:hover .cart9,
+.image:hover .cart10,
+.image:hover .cart11,
+.image:hover .cart12,
+.image:hover .cart13,
+.image:hover .cart14,
+.image:hover .cart15,
+.image:hover .cart16{
+    bottom:120px;
+    opacity: 0.9;
+    padding: 20px;
+    color:white;
+    text-decoration:none;
+}
+
+/*--------------------------------*/
+
+.image a{
+    text-decoration: none;
+    color:rgb(30,49,46);
+}
+
+.shop-item{
+    width:215px;
+    height:95px;
+    font-size:14px;
+    border:dashed rgb(169, 175, 182);
+    padding-left:20px;
+    background-image:url(womensheader.png);
+}
+
+.shop-item-image{
+    margin-top:40px;
+    margin-bottom:10px;
+}
+.shop-item a:hover{
+    color:teal;
+}
+
+
+.item-image{
+    height:230px;
+    width:240px;
+}
+
+
+/*Cart icon style*/
+li{
+    list-style-type: none;
+}
+.loginicon{
+    margin-right: 6%;
+
+}
+.carticon{
+    display:block;
+    max-width:80px; max-height:40px;
+    background-color:rgb(100, 96, 96);
+    color:white;
+    border-radius:10%;
+    padding:10px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    font-family: "URW Chancery L", cursive;
+}
+span.cartIcon{
+    color:rgb(212, 206, 148);
+}
+
+

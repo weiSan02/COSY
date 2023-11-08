@@ -1,0 +1,81 @@
+/*
+New Perspectives on HTML5 and CSS3, 7th Edition
+Web Design and Development Assignment
+
+
+Author: Diong Zi Yu
+Date: 28/7/2020  
+css
+Filename: co_faq.css
+*/
+
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+    .page-wrapper {
+        min-height:100%;
+    }
+
+    section {
+        display: block;
+        margin: 20px 70px 70px 90px;
+        overflow: auto;
+    }
+
+    section h4 {
+        display: block;
+        padding: 10px;
+        background-image: url(clothes.jpg);
+        font: 13pt 'Bahnschrift Regular';
+    }
+
+    section h1 {
+        border: 3px solid rgb(30,49,46);
+        margin: 27px 32px 20px 10px;
+        text-align: center;
+        font: 25pt 'Bahnschrift Regular';
+        padding: 20px;
+        background-image: url(background.jpeg);
+        background-size: cover;
+    }
+    section h1:hover {
+        text-shadow: 5px 5px 5px forestgreen;
+        box-shadow: 5px 5px 5px grey;
+        transition: 1s;
+    }
+
+    section div.Qbox {
+        display: block;
+        float: left;
+        box-shadow: 10px 10px 5px grey;
+        min-height: 200px;
+        max-height: 190px;
+        width: 25%;
+        padding: 15px;
+        border: 2px rgb(100,128,134) solid; 
+        background-color: whitesmoke;
+        font: 12pt Arial;
+    }
+
+    section div.Qbox:hover {
+        box-shadow: 10px 10px 5px rgb(0, 0, 0);
+    }
+
+    section div#margin {
+        margin: 10px;
+        overflow: auto;
+    }
+
+    section address {
+        border: 1px solid rgb(100, 128, 134); 
+        padding:10px; 
+        font-family:'Times New Roman';
+    }
+    
+    p {font-family: 'Times New Roman';}
+

@@ -1,0 +1,323 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+/*
+   TSS Typographic Style Sheet
+   Author: Lee Wei San
+   Filename: co_womenspg1.css
+
+*/
+
+body{
+    margin: 0;
+    padding:0;
+}
+
+.wrapper{
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #6CB8AE 0%,rgb(108,184,174)45%,rgb(193,203,215)100%)
+}
+@media screen and (min-width: 400px) {
+    .wrapper{
+        width: 400;
+    }
+}
+
+.box div{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgb(101,101,101);
+}
+
+.box div:nth-child(1){
+    top:12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(2){
+    top:70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+}
+
+.box div:nth-child(3){
+    top:17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(4){
+    top:20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+}
+
+.box div:nth-child(5){
+    top:67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+}
+
+.box div:nth-child(6){
+    top:80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.box div:nth-child(7){
+    top:60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+}
+
+.box div:nth-child(8){
+    top:32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+}
+
+.box div:nth-child(9){
+    top:80%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+}
+
+.box div:nth-child(10){
+    top:20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.3) translateY(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.banner{
+    display: block;
+    background-color: rgb(236,236,234);
+    height:500px;
+}
+.banner1,.banner2,.banner3,.banner4{
+    height:100vh;
+    width: 100%;
+    margin-top: 209px;
+    position: absolute;
+    left:0;
+    top: 0;
+}
+.img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.banner1{
+    animation: slide1 12s linear infinite;
+}
+.banner2{
+    animation: slide2 12s linear infinite;
+}
+.banner3{
+    animation: slide3 12s linear infinite;
+}
+.banner4{
+    animation: slide4 12s linear infinite;
+}
+
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide4{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+
+article div a{
+    text-decoration: none;
+    color: black;
+}
+article div a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+section{
+    overflow: hidden;
+  } 
+  
+  .title{
+   text-align: center;
+   height: 130px;
+   margin: 0px;
+   font-size: 25px;
+   font-family: "URW Chancery L", cursive;
+    }
+
+    .categories{
+      display: block;
+    }
+    * {box-sizing: border-box;}
+    
+    .mens{
+     background-image: url('mensbackground.png');
+      object-fit: contain;
+      background-size: cover;
+      margin-left: 150px;
+      margin-top: 100px;
+      width: 250px;
+      height: 250px;
+      float: left;
+      border-style: groove;
+      border-width: 10px; 
+      border-color: rgb(194,184,161);
+   }
+
+    .womens{
+     background-image: url('background2.jpg');
+      object-fit: contain;
+      background-size: cover;
+      margin-left: 150px;
+      margin-top: 100px;
+      width: 250px;
+      height: 250px;
+      float: left;
+      border-style: groove;
+      border-width: 10px; 
+      border-color: rgb(194,184,161);
+    }
+
+    .kids{
+     background-image: url('kidsbackground.jpg');
+      object-fit: contain;
+      background-size: cover;
+      margin-top: 40px;
+      margin-left: 150px;
+      margin-bottom: 50px;
+      width: 250px;
+      height: 250px;
+      float: left;
+      border-style: groove;
+      border-width: 10px; 
+      border-color: rgb(194,184,161);  
+    }
+
+    .bags{
+     background-image: url('accessoriesbackground.jpg');
+     object-fit: contain;
+      background-size: cover;
+      margin-left: 150px;
+      margin-top: 40px;
+      margin-bottom: 100px;
+      width: 250px;
+      height: 250px;
+      float: left;
+      border-style: groove;
+      border-width: 10px; 
+      border-color: rgb(194,184,161);
+    }
+
+    .carticon{
+        font-size:12px;
+    }
+
+    .banner1,.banner2,.banner3,.banner4{width: 900px;height: 380px;}
+    @media screen and (max-width: 800px) {
+        .wrapper{
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: 0px;
+            width: 750px;
+        }
+        .banner1,.banner2,.banner3,.banner4{
+            margin-top:339px;
+            width: 750px;
+            }
+        }

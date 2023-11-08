@@ -1,0 +1,175 @@
+/*
+New Perspectives on HTML5 and CSS3, 7th Edition
+Web Design and Development Assignment
+
+
+Author: Diong Zi Yu
+Date: 28/7/2020  
+css
+Filename: co_payment.css
+*/
+
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+   fieldset.row {
+        background-color: ivory;
+        position: relative;
+        width: 58%;
+        height: 750px;
+        margin: 10px 0px 30px 45px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        float: left;
+        text-align: center;
+        border: 1.5px solid rgb(90, 0, 0);
+    } 
+
+    div.move {
+        padding-left: 0px;
+    }
+
+    div.col-1-3-row-1 {
+        position: relative;
+        height: 100px;
+        width: 90%;
+        margin-top: 27px;
+        margin-left: 45px;
+        padding-top: 30px;
+        border: 1px solid black;
+        background-color: ivory;
+        border: 1.5px solid rgb(90, 0, 0);
+        flex: 50%;
+    }
+
+    div input[type="radio"].deliverChoice{
+        position: relative;
+        vertical-align: center;
+        margin-top: 25px;
+        margin-left: 105px;
+        flex: 50%;
+    }
+
+    div input {
+        margin-bottom: 10px;
+    }
+
+    #ExpYear, #ExpMonth {
+        width: 73px;
+    }
+
+    label {
+        display: inline-block;
+        width: 100px;
+     }
+
+     fieldset#pickupInfo, fieldset#DeliveryInfo {
+         width: 19.5%;
+         height: 290px;
+         padding: 37px 20px 20px 20px;
+         background-color: ivory;
+         border: 1.5px solid rgb(90, 0, 0);
+         margin: 5px auto;
+         text-align: center;
+     }
+
+     input[type="submit"].order {
+         position: absolute;
+         height: 58px;
+         width: 105px;
+         vertical-align: middle;
+         margin-top: 10px;
+         margin-left: 45px;
+         border: 1.5px solid rgb(90, 0, 0);
+         border-radius: 10px;
+         background-color: ivory;
+     }
+
+     input[type="submit"].order:hover{
+         cursor: pointer;
+         background-color: burlywood;
+     }
+
+     input[type="submit"].order:active{
+        cursor: pointer;
+        background-color: khaki;
+     }
+
+     input[type="button"].resetting {
+        position: absolute;
+        height: 58px;
+        width: 105px;
+        vertical-align: middle;
+        margin-top: 10px;
+        margin-left: 160px;
+        border: 1.5px solid rgb(90, 0, 0);
+        border-radius: 10px;
+        background-color: ivory;
+    }
+
+    input[type="button"].resetting:hover{
+        cursor: pointer;
+        background-color: burlywood;
+    }
+
+    input[type="button"].resetting:active{
+       cursor: pointer;
+       background-color: khaki;
+    }
+
+     footer {
+        clear: both;
+    }
+
+    select {
+        width: 165px;
+        height: 25px;
+    }
+
+    h3.payment {
+        font-family: 'Bahnschrift Regular';
+        text-align: center;
+        text-shadow: 5px 5px 5px grey;
+        font-size: 25pt;
+        transition: font-size 1s;
+        transition-timing-function: cubic-bezier(0.2, 0.5, 0.9, 0.5);
+    }
+
+    h3.payment:hover {font-size: 35pt;}
+
+    @media only screen and (max-width: 830px) {
+        input[type="submit"].order {
+            width:90px;
+            margin-left: 32px;
+        }
+        
+        input[type="button"].resetting{
+            width:90px;
+            margin-left: 127px;
+        }
+        div input[type="radio"].deliverChoice{
+            margin-left: 95px;
+        }
+     }
+
+    @media only screen and (max-width: 797px) {
+        input[type="submit"].order {
+            width:85px;
+            margin-left: 32px;
+        }
+        
+        input[type="button"].resetting{
+            width:85px;
+            margin-left: 122px;
+        }
+        div input[type="radio"].deliverChoice{
+            margin-left: 85px;
+        }
+     }

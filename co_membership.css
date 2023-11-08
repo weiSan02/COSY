@@ -1,0 +1,188 @@
+/*
+New Perspectives on HTML5 and CSS3, 7th Edition
+Web Design and Development Assignment
+
+
+Author: Diong Zi Yu
+Date: 28/7/2020  
+css
+Filename: co_membership.css
+*/
+
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+    .opacityBG {
+        background-color: rgba(245, 245, 245, 0.541);
+    }
+
+    h3.c {
+        font-family: 'Bahnschrift Regular';
+        text-align: center;
+        text-shadow: 5px 5px 5px grey;
+        font-size: 25pt;
+        transition: font-size 1s;
+        transition-timing-function: cubic-bezier(0.2, 0.5, 0.9, 0.5);
+    }
+    
+    h3.c:hover {font-size: 35pt;}
+
+    h1 {
+        border: 6px ridge gainsboro;
+        box-shadow: 5px 5px 5px grey;
+        margin: 0px 39px 10px 30px;
+        text-align: center;
+        padding: 20px;
+        background-image: url(clothes1.jpg);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+
+     .buttonHere {
+        position: relative;
+        left: 2px;
+        bottom: 0px;
+        border: 1.5px solid black;
+        border-radius: 5px;
+        background-color: rgb(30,49,46);
+        color: white;
+        cursor: pointer;
+        padding: 1px;
+        text-decoration: none;
+     }
+
+     .buttonHere:hover {
+        background-color: ivory;
+        color: black;
+     }
+
+     .buttonHere:active {
+        background-color: khaki;
+        color: black;
+     }
+
+
+div#border {border: 10px solid rgb(30,49,46);}
+div.row1 {
+    clear: both;
+}
+
+div.row1::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+div[class^="col-"] {
+    float:left;
+    padding:2%;
+    box-sizing: border-box;
+ }
+
+div.col-2-5 {width: 40%; font-size:1.1em;}
+div.col-3-5 {width: 55%; font-size:1.1em;}
+
+div.row2-col1 {
+    height: 638px;
+    background-image: url(clothes1.jpg);
+    border: solid black;
+    border-style: solid dotted;
+    margin: 20px 0px 15px 30px;
+    padding: auto;
+    font: 17px Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+div.row2-col2-row1 {
+    background-image: url(clothes1.jpg);
+    border: solid black;
+    border-style: solid dotted;
+    margin: 5px 5px 8px 5px;
+    padding: 15px;
+}
+
+div.row2-col2-row2 {
+    background-image: url(clothes1.jpg);
+    border: solid black;
+    border-style: solid dotted;
+    margin: 25px 5px 15px;
+    padding: 23px;
+    font: 17px 'Times New Roman', Times, serif;
+}
+
+div.row3 {
+    background-image: url(clothes1.jpg);
+    border: solid black;
+    border-style: solid dotted;
+    margin: 0px 37px 30px 30px;
+    padding: 25px;
+    font: 18px  'Times New Roman', Times, serif;
+}
+
+
+table {
+    border-collapse: collapse;
+    font: 20px Georgia, 'Times New Roman', Times, serif;
+    margin-left: 27px;;
+}
+
+th, td {border: 5px rgb(0, 107, 48) ridge; padding:5px;}
+
+h3.size {
+    font: 25pt'Bahnschrift Regular';
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px grey;
+}
+
+h3.a {
+    border: 2px black solid;
+    margin: 45px 38px 0px 31px;
+    padding: 10px;
+  }
+
+  h3.a::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+caption{
+    font: bold 18pt'Bahnschrift Regular';
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px grey;
+    padding-bottom: 10px;
+}
+
+video {
+    box-shadow: 8px 8px 15px rgb(51, 51, 51);
+    border: 2px solid black;
+    display: block;
+    width: 90%; 
+    height: 200px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    table {
+       margin-left: 5px;
+    }
+
+    div.row2-col1 {
+       height: 698px;
+    }
+
+    video {
+        margin-left: 12px;
+    }
+}
+
+@media print {
+    footer {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

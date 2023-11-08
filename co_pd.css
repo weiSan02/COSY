@@ -1,0 +1,79 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+/*
+   Cosy Style Sheet
+   Author: Hew Kar Eun
+   Date: //2020  
+   
+   Filename: co_pd.css
+
+*/
+
+/* Header styles */
+header{
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(75, 99, 236);
+    display:block;
+}
+
+/* Body Header Styles */          /* Logo image */
+
+footer{
+    clear:both;
+}
+
+header {
+    background: linear-gradient(to bottom, white 70%);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: white;
+ }
+
+section{
+    margin:50px 20%;
+}
+
+section p{
+    line-height:2em;
+    margin:40px 40px;
+}
+
+/*Form Layout Styles*/
+form{
+    display:-webkit-flex;
+    display:flex;
+    flex-flow: row wrap;
+    margin:20px;
+}
+
+div class{
+    margin:20px 20px;
+    width:100%;
+}
+
+label {
+    display: inline-block;
+    width: 120px;
+    margin : 20px 20px;
+ }
+
+input[type="submit"],input[type="reset"]{
+    height:50px;
+    width:200px;
+    margin : 20px 20px;
+}
+
+input#sizeBox{
+    width:250px;
+}
+
+ 
+ 
+ 
+ 
+ 

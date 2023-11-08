@@ -1,0 +1,58 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+    
+   
+    .flex-container{
+        display:flex;
+        flex-wrap:nowrap;
+        flex-direction: column;
+        background-image: url("cf.png");
+       }
+   
+      .flex-container > div
+      {
+        background-color:white;
+        margin: 10px;
+        padding: 10px;
+        font-size: 30px;
+        font-family:"Arial Black", serif;
+        text-align: center;
+        width:800px;
+       }
+   
+       .flex-RECENT > div
+       {
+         background-color:cyan;
+         padding:20px;
+         font-size: 36px;
+         text-align:center;
+       }
+   
+       .flex-feedback{
+         display:flex;
+         flex-wrap:nowrap;
+         background-color:peachpuff;
+         height: 50px;
+       }
+   
+       .flex-form > form
+       {
+         width:50px;
+         height:100px;
+         border-style:solid,black;
+       }
+      
+       .img-1
+       {
+        height:50px;
+        width:50px;
+      }
+
+      .section{
+        align-content: center;
+      }

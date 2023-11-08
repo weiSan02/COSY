@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Web Design and Development Assignment
+    
+    COSY 
+    Author: Joey 
+    Date: 25/6/2020  
+
+    Filename: co_kids.html
+   -->
+
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="keywords" content="fashion, clothes, Cosy, attire">
+
+   
+   <link rel="icon" type="image/png" href="smalllogo.png">
+   <title>KID's</title>
+   
+   <link href="co_styles1.css" rel="stylesheet" />
+   <link href="co_kids.css" rel="stylesheet" />
+   <link href="co_styles2.css" rel="stylesheet" />
+   <script src="co_kidscount.js" type="text/javascript"  defer> </script>
+
+
+   <link href="co_products.css" rel="stylesheet" />
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <style>
+     span{
+      color:rgb(35, 131, 91);
+     }
+   
+     .buttonbox{
+       text-align: center;
+       border:rgb(140, 140, 182) 3px solid;
+       width:54%;
+       padding:2%;
+     }
+     .button{
+ 
+       height:30px;
+       width:180px;
+       margin-left: 1%;
+       margin-right: 1%;
+       margin-bottom: 1%;
+       background-color:rgb(240, 240, 240);
+       border:1px solid rgb(152, 152, 197);
+       border-radius:8%;
+       font-variant-caps: small-caps;
+       font-weight: 700;
+     }
+     .button:hover{
+      background-color:rgb(230, 231, 231);
+     }
+     .button a{
+       color:rgb(30,49,46);
+       text-decoration: none;
+     }
+     .button a:hover{
+       color:gray;
+     }
+
+     @media only screen and (max-width: 797px) {
+       .buttonbox{
+         margin-left:0;
+       }
+      }
+
+   </style>
+
+</head>
+
+
+<body>
+  <header>
+    <div>
+      <ul>
+        <li>
+          <a href="co_profile.html"><img src="login.png" alt="loginIcon" width="40px" height="40px" class="loginicon" ></a>
+          <a href="co_addtocart.html" class="carticon">
+            <ion-icon name="cart-outline"></ion-icon> Cart
+            <span class="cartIcon">0</span>
+          </a>   
+        </li>
+      </ul>
+      <img src="CosyLogo.png" alt="Cosy" width="395" height="130" class="logo" usemap="#logomap"/>
+      <map id="logomap" name="logomap">
+        <area shape="rect" coords="0,0,471,138" alt="cosylogo" href="co_homepage.html" target="_blank">
+      </map>
+
+      <nav>
+        <ul> 
+          <li><a href="co_homepage.html"><img src="homeicon.png"></li>
+          <li><a href="co_kids.html">| KIDS |</a></li>
+          <li><a href="co_womenspg1.html">| WOMEN |</a></li>
+          <li><a href="co_mens.html">| MEN |</a></li>
+          <li><a href="co_b&a.html">| BAGS & ACCESSORIES |</a></li>
+          <li><a href="co_myaccount.html">| MY ACC |</a></li>
+        </ul>
+      </nav>
+    </div>  
+  </header>
+
+
+ 
+
+
+   <section>
+         <article class="promo" > 
+            <h2 id="promotext">KID'S</h2>
+            <div>
+                  <div style="padding-left: 20px;">
+
+                    <div style="line-height:1.0;">
+                        <h2>Promotion</h2>
+                        <p>Latest Promtion! Grab the deals before <b style="background-color:rgb(156, 221, 199);">15th October 2020</b>!</p>
+
+                        <p class=buttonbox>Click<button class="button"><a href="co_kidsmore.html">Check for more Info!</a></button>to check our latest update.</p>
+                
+                            <div style="width: 59%;height:70px;padding-top:1px; text-align:center;background-color:rgba(228, 241, 233, 0.836)">
+
+                                <h1 id="countdown" >Promotion End date Countdown </h1>
+                                <h1 style="color: rgb(35, 131, 91)" id="currentdate">  </h1>
+                                <h1 style="color: rgb(31, 75, 56); display:block; font-variant: small-caps;" id="dayleftinfo">  </h1>
+                            </div>
+
+                    </div>
+                        
+               
+                    <h1 id="timeleft" style="margin:0;padding-left:25%; padding-bottom:2%;padding-top:2%;width:34%; height:130px;  background-color:rgba(228, 241, 233, 0.836);"> Time left :  
+                      <div><span id="dLeft">  </span> Days</div>
+                      <div><span id="hLeft">  </span> Hrs</div>
+                      <div><span id="mLeft">  </span> Mins</div>
+                      <div><span id="sLeft">  </span> Secs</div>
+                    </h1>
+
+                </div>
+
+                  <div id="terms" style="margin-right:20px;text-align:center;background-color: rgba(168, 194, 181, 0.774);">
+                        <ul>
+                          <li>Terms and condition applied.</li>
+                          <li>For all products with label "Promo" will be given discount up to 50%!</li>
+                          <li>Promotion period: 3:00- 8:00pm every weekday!</li>
+                        </ul>
+                  </div>
+
+                  <div class="kid" id="kid">
+                      <a href="co_kidsmore.html"><img src="kidsmain.jpg" alt="kids clothes"/></a>
+                      <a href="co_kidsmore.html#newarrive"><img id="kidimg2"src="kids50discount.jpg" alt="kids clothes"/></a>
+                  </div>
+
+            </div>
+         </article>
+
+
+         <h2 id="shopnow" style="margin-top:5%;text-align:center; background-image:url(clothes1.jpg);padding-bottom:2%; font-variant-caps: small-caps;background-position: center;
+         background-attachment: fixed; border:15px solid rgba(0, 0, 0, 0.048);">
+         <br/>Shop Now!<br/>
+        </h2>
+        
+         <div class="newRow">
+               <div class="bb">
+                     <h2><a href="co_babyboy.html">BABY BOY</a></h2>
+               </div>
+
+               <div class="boy">
+                  <h2><a href="co_boy.html">BOY</a></h2>
+               </div>
+         </div>
+         
+         <div class="newRow">
+               <div class="bg">
+                  <h2><a href="co_babygirl.html">BABY GIRL</a></h2>
+               </div>
+
+               <div class="g">
+                  <h2><a href="co_girl.html">GIRL</a></h2>
+               </div>
+         </div>
+  
+   </section>  
+     
+
+   
+   <footer>
+    <div>
+      <h3>CUSTOMER SERVICE</h3>
+       &nbsp;&nbsp;&nbsp;&nbsp;Tel: <a href="tel:+6034567891">+6034567891</a><br/>
+       Email: <a href="mailto:cosy20@gmail.com">cosy20@gmail.com</a>
+    </div>
+
+    <div>
+      <h3 class="b">HELP</h3>
+      <ul>
+        <li id="a"><a href="co_faq.html" >FAQs</a></li>
+        <li id="a"><a href="co_membership.html" >Membership</a></li>
+        <li id="a"><a href="co_customerfdback.html" >Customer Feedback</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="b">DELIVERY</h3>
+      <ul>
+        <li id="a"><a href="co_pd.html">Product delivery</a></li>
+      </ul>
+
+      <a href="co_aboutus.html" class="about">ABOUT US</a>
+    </div>
+
+    <div>
+      <h3 class="b">STORE LOCATION</h3>
+
+      <address>
+        No.20, Jalan Jaya, 50050,<br/> 
+        Wilayah Persekutuan.
+      </address>
+      <p id="right">COME AND FOLLOW US:</p>
+      <a href="https://www.facebook.com/Cosy-218555486259797/"><img src="facebook.png" alt="FB icon"></a>
+      <a href="#"><img src="instagram.png" alt="Instagram icon"></a>
+      <a href="#"><img src="twitterIcon.png" alt="Twitter icon" id="Twitter"></a>
+    </div> 
+    <div class="footer-bottom">&copy; Cosy.com</div>
+  </footer> 
+     <script src="babygirl.js"></script>
+     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+   
+</body>
+
+</html>
