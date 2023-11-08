@@ -1,0 +1,56 @@
+/*
+   Cosy
+   Author: Hew Kar Eun
+   Date: //2020  
+   
+   Filename:co_wallet.css
+
+*/
+h4{
+   text-align: center;
+   font-size: 3em;
+   background-attachment: fixed;
+   padding:2%;
+   font-variant-caps: all-small-caps;
+}
+
+.box,
+.wallet-box{
+
+   display:flex;
+   justify-content: center;
+   flex-wrap:wrap;
+   margin-top: 50px;
+   padding-bottom: 100px;
+}
+
+
+.image{
+   margin-right: 40px;
+   margin-left:40px;
+   position:relative;
+   overflow: hidden;
+}
+
+.image a{
+   text-decoration: none;
+   color:rgb(30,49,46);
+}
+
+.shop-item{
+   border:dashed rgb(169, 175, 182);
+   margin: 0 auto;
+}
+
+.shop-item-image{
+   margin-top:40px;
+   margin-bottom:10px;
+}
+.shop-item a:hover{
+   color:rgb(223, 78, 78);
+}
+
+.item-image{
+   height:230px;
+   width:240px;
+}

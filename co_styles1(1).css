@@ -1,0 +1,247 @@
+
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+/*
+   TSS Typographic Style Sheet
+   Author: Diong Zi Yu
+   Date: 1/8/2020
+   
+   Filename: co_styles1.css
+
+*/
+
+/* Main Structural Styles */
+html { 
+    box-shadow: -5px -5px teal;
+    background-image: url(background.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    position: relative;
+    background-color: white;
+    min-width: 750px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+    width: 100%;
+    overflow: scroll;
+}
+
+body::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+
+/* Body Header Styles */
+.logo {                /* Logo image */
+    display: block;
+    margin: 0px auto;
+}
+
+.carticon {
+    position: absolute;
+    top: 90px;
+    right: 10px;
+}
+
+.loginicon {
+    position: absolute;
+    top: 90px;
+    right: 60px;
+}
+
+
+/*Horizontal Navigation List*/
+
+nav {
+    white-space: nowrap;
+ }
+
+nav img {
+    margin-left: 0px;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+}
+
+nav ul {
+    margin-top: 15px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+nav ul li {
+    background-color: rgb(30,49,46);
+    display: block;
+    flex: 1 1 100%;
+    float: left;
+    width: 16.66%;
+    list-style-type: none;
+    font: 13px 'Bahnschrift Regular','Courier New', Courier, monospace;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav ul a:hover {
+    background-color: cornsilk;
+    color: black;
+}
+
+nav ul a:active {
+    background-color: rgb(253, 237, 174);
+    color: black;
+}
+
+/*FOOTER STYLES*/
+footer {
+    width: 100%;
+    background-color: rgb(30,49,46);
+    color: white;
+    position: relative; /*original: relative, change to absolute for Joey's Kids page*/
+    height: 300px;
+}
+
+footer a#FB {float:left; margin-left: 30px;}
+
+footer a#Insta, a#Twitter{float:left; margin-left: 10px;}
+
+footer li#a {list-style-type: none; text-align: justify;}
+
+footer h3 {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+
+}
+
+footer .footer-bottom {
+    background: rgb(55, 73, 70);
+    color: whitesmoke;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 5px;
+}
+
+footer div {
+    display: block;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+footer div::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer div a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+footer .about {
+    position: absolute;
+    bottom: 85px;
+    right: 230px;
+    text-decoration: none;
+}
+
+footer p#right {
+    margin-top: 40px;
+}
+
+#searchBox input[type=text] {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    outline: none;
+    margin-top: 5px;
+    margin-left: 13px;
+
+    border: 2px solid black;
+}
+
+#searchBox button[type=submit]:hover {
+    cursor: pointer;
+}
+
+#searchBox button[type=submit]:active {
+    background-color: black;
+}
+
+#buttonImage {
+    position: relative;
+    width: 22px; 
+    height: 22px;
+    padding-top: 2px;
+}
+
+.btn {
+    position: absolute;
+    height: 34.5px;
+    background-color: white;
+    margin-top: 6px;
+    margin-left: 153px;
+}
+
+::placeholder {
+    color: rgb(216, 216, 216);
+    padding-left: 5px;
+}
+
+/*Cart icon style*/
+li{
+    list-style-type: none;
+}
+.loginicon{
+    margin-right: 6%;
+
+}
+.carticon{
+    display:block;
+    max-width:80px; max-height:40px;
+    background-color:rgb(100, 96, 96);
+    color:white;
+    border-radius:10%;
+    padding:10px;
+    text-decoration:none;
+    cursor: pointer;
+    text-align:center;
+    font-family: "URW Chancery L", cursive;
+}
+span.cartIcon{
+    color:rgb(212, 206, 148);
+}

@@ -1,0 +1,29 @@
+/*
+   Cosy
+   Author: Hew Kar Eun
+   Date: //2020
+
+   Filename: co_validate.css
+
+*/
+
+
+/* Validation Styles */
+
+input:focus, select:focus, textarea:focus{
+    background-color:rgb(157, 234, 247);
+ }
+ 
+ input#nameBox:focus:valid,
+ input#emailBox:focus:valid,
+ input#codeBox:focus:valid{
+    background:rgb(220,255,220)
+    contain no-repeat;
+ }
+ 
+ input#nameBox:focus:invalid,
+ input#emailBox:focus:invalid,s
+ input#codeBox:focus:valid{
+    background:rgb(255,230,230)url(co_warning.png)right/
+    contain no-repeat;
+ }

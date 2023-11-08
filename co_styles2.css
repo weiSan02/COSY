@@ -1,0 +1,42 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+    
+/*
+      New Perspectives on HTML5 and CSS3, 7th Edition
+      Web Design and Development Assignment
+    
+   
+      Author: Diong Zi Yu
+      Date: 1/8/2020
+   
+   Filename: co_styles2.css
+
+*/
+
+    @media only screen and (max-width: 797px) {
+        footer h3.b {
+            line-height: 43.5px;
+        }
+    
+        nav ul {flex-wrap: wrap;}
+    
+        nav ul li {
+            flex: 1 1 100%;
+            border: 0.1px solid white;
+            list-style-type: none;
+        }
+
+        div.move {
+            margin-left: 0px;
+        }
+
+        footer .about {
+            bottom: 70px;
+        }
+    }
