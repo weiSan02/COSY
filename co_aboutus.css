@@ -1,0 +1,131 @@
+
+/*
+New Perspectives on HTML5 and CSS3, 7th Edition
+Web Design and Development Assignment
+
+Author: Joey Kok Yen Ni
+Filename: co_aboutus.css
+*/     
+      
+      footer{
+         clear:both;
+      }
+/*image*/
+
+.image-container{
+   position:relative;
+}
+.image-container2{
+   position:relative;
+   width:250px;
+   height:200px;
+   background-color: rgb(253, 203, 76);
+}
+.transition-image{
+   position:absolute;
+   left:0px;
+   opacity:0;
+   transition: opacity 0.5s ease;
+}
+.transition-image:hover{
+   opacity:1;
+}
+.transition-image2{
+   position:absolute;
+   left:0px;
+   opacity:0;
+   transition: opacity 0.5s ease;
+}
+.transition-image2:hover{
+   opacity:1;
+}
+
+
+
+/*titles and sub- title*/
+      h1{
+         font-size:5vmin;
+         letter-spacing: 2px;
+         text-align:center;
+         padding:20px; 
+         margin:5%; 
+         background-color:rgba(145, 154, 236, 0.5);
+         animation: mymove 5s;
+      }
+      @keyframes mymove {
+         form{background-color:rgb(201, 238, 240);}
+         to{background-color:rgba(141, 107, 182, 0.5);}
+         from{margin:0%;}
+         to{margin:5%;}
+      }
+      @keyframes movement{
+         
+      }
+
+      h2{
+         font-size:5vmin;
+      }
+   
+      b{
+         font-size:1.5em;
+         font-variant: small-caps;
+      }
+
+      .abus{
+         background-color: lightblue;
+         font-variant:small-caps;
+      }
+
+/*second article (History)*/
+      article.r2 {
+
+         float:left;
+         clear: left;
+         padding:5% 10% 5% 10%;
+         background-color:khaki;
+      }
+      article.r2 .image-container2{
+         display:block;
+         width:40%;
+         margin-left:5%;
+         float:right;
+      }
+
+/*First and Third article (Our value, Contact us)*/
+      article.r1 div,.r3 div{
+         width:50%;
+         float:left;
+         padding:2% 2% 5% 0%;
+      }
+      article.r1 .image-container,article.r3 .image-container{
+         display:block;
+         width:30%;
+         margin:5% 5% 5% 8%;
+         float:left;
+      }
+
+      .r1,.r3{
+      display:table;
+      height: 20vh;
+      width: 100%;
+      background-image: url(marble.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      }
+
+      @media only screen and (max-width: 900px) {
+         .transition-image{
+            display:none;
+         }
+         .transition-image2{
+            display:none;
+         }
+     }
+
+
+   
+
+
+   
+   

@@ -1,0 +1,34 @@
+/*
+   Cosy
+   Author: Hew Kar Eun
+   Date: //2020  
+   
+   Filename:co_back.css
+
+*/
+.back{
+    display:left;
+}
+
+.back a{
+    float:left;
+    padding:8px 16px;
+    text-decoration:none;
+    border:1px solid;
+    color:black;
+}
+
+.back a.active{
+    background-color:black;
+    border: 1px solid;
+    color:white;
+}
+
+.back a:hover:not(.active){
+    background-color:rgb(179, 245, 179);
+}
+
+.back a:first-child{
+    border-top-left-radius :5px;
+    border-bottom-left-radius:5px;
+}

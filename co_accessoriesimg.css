@@ -1,0 +1,101 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+/*
+   Cosy
+   Author: Hew Kar Eun
+   Date: //2020  
+   
+   Filename:co_accessoriesimg.css
+
+*/
+
+
+body{
+    background-color : rgb(243, 237, 237);
+    text-align : center;
+}
+
+article div a{
+    text-decoration: none;
+    color: black;
+}
+article div a:hover {
+    color: black;
+}
+
+
+/* content*/
+.back{
+    font-size: 30px;
+
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover {
+    color: rgb(30,49,46);
+}
+
+.bottom{
+    float: left;
+    width: 300px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border-color: rgb(123,139,111);
+    border-style: solid;
+ }
+
+ .ProductInformation {
+    float: right;
+    width: 520px;
+    height: 360px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    font-family: "Arial Black";
+    border-color: rgb(123,139,111);
+   border-style: dashed;
+}
+
+section{
+    overflow: hidden;
+  } 
+
+pre{
+    font-family: "Arial Black";
+}
+
+.addtocart{
+    float:center;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    border-color: rgb(134,150,167);
+    border-radius: 12px;
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    font-family: "Arial Black";
+}
+
+.buynow{
+    float:center;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    border-color: rgb(134,150,167);
+    border-radius: 12px;
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    font-family: "Arial Black";
+}
+

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+   <!--
+    New Perspectives on HTML5 and CSS3, 7th Edition
+    Web Design and Development Assignment
+    
+   
+    Author: Diong Zi Yu
+    Date: 13/8/2020  
+
+    Filename: co_applicationform.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="keywords" content="fashion, clothes, Cosy, attire">
+   <link rel="icon" type="image/png" href="smalllogo.png">
+   <title>APPLICATION FORM</title>
+   
+   <link href="co_styles1.css" rel="stylesheet" />
+   <link href="co_styles2.css" rel="stylesheet" />
+   <link href="co_applicationform.css" rel="stylesheet" />
+   <script src="co_applicationform.js"></script>
+
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <style>
+
+   </style>
+ </head>
+
+ <body onload="writeName(); init();">
+   <header>
+     <div>
+       <ul>
+         <li>
+           <a href="co_profile.html"><img src="login.png" alt="loginIcon" width="40px" height="40px" class="loginicon" ></a>
+           <a href="co_addtocart.html" class="carticon">
+             <ion-icon name="cart-outline"></ion-icon> Cart
+             <span class="cartIcon">0</span>
+           </a>   
+         </li>
+       </ul>
+       <img src="CosyLogo.png" alt="Cosy" width="395" height="130" class="logo" usemap="#logomap"/>
+       <map id="logomap" name="logomap">
+         <area shape="rect" coords="0,0,471,138" alt="cosylogo" href="co_homepage.html" target="_blank">
+       </map>
+    
+       <nav >
+         <ul>
+           <li><a href="co_homepage.html"><img src="homeicon.png"></li>
+           <li><a href="co_kids.html">| KIDS |</a></li>
+           <li><a href="co_womenspg1.html">| WOMEN |</a></li>
+           <li><a href="co_mens.html">| MEN |</a></li>
+           <li><a href="co_b&a.html">| BAGS & ACCESSORIES |</a></li>
+           <li><a href="co_myaccount.html">| MY ACC |</a></li>
+         </ul>
+       </nav>
+     </div>  
+   </header>
+
+   <section>
+     <h2>WHAT ARE YOU WAITING FOR? MEMBERSHIP APPLICATION FORM IS RIGHT HERE!!</h2>
+     <div>
+        <fieldset>
+          <div>
+            <form method="post">
+              <table>
+                <tr>
+                  <td><label for="firstName">First Name</label></td>
+                  <td><label for="lastName">Last Name</label></td>
+                </tr>
+                <tr>
+                  <td><input type="text" id="firstName" name="FirstName" class="padding" required /></td>
+                  <td><input type="text" id="lastName" name="lastName" class="padding" required /></td>
+                </tr>
+              </table><br/>
+
+              <label for="age">Age</label><br/>
+              <input type="number" id="age" name="age" 
+               min="0" class="padding" required /><br/><br/>
+
+              <label for="gender">Gender</label><br/>
+              <select id="gender" name="gender" class="padding" required>
+                <option value="" selected>*Select your gender</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="O">Others</option>
+              </select><br/><br/>
+
+              <label for="birth">Birth Date</label><br/>
+              <input type="date" id="birth" name="birth" class="padding" required /><br/><br/>
+
+              <label for="ic">IC Number</label><br/>
+              <input type="text" id="ic" name="ic" class="padding" placeholder="nnnnnn-nn-nnnn" required /><br/><br/>
+
+              <table>
+                <tr>
+                  <td><label for="e-mail">Email</label><br/></td>
+                  <td><label for="contactNumber">Contact Number</label></td>
+                </tr>
+                <tr>
+                  <td><input type="email" id="e-mail" name="e-mail" class="padding" placeholder="e.g.cosy20@gmail.com" required /></td>
+                  <td><input type="tel" id="contactNumber" name="contact" class="padding" required /></td>
+                </tr>
+              </table><br/>
+
+              <label for="member">Membership Type</label><br/>
+              <select id="member" name="memberType" class="padding" required>
+                <option value="" selected>*Select membership type</option>
+                <option value="type1">Adults</option>
+                <option value="type2">Teenagers</option>
+                <option value="type3">Kids</option>
+              </select><br/><br/>
+
+              <label>Upload Your IC Copy</label><br/>
+              <input type="file" id="realF" hidden="hidden" class="padding" />
+              <button type="button" id="cusbtn">CHOOSE A FILE</button>
+              <span id="custxt">No file chosen, yet.</span><br/><br/>
+
+              <input type="submit" id="submit" name="Submit" value="Submit" />
+              <input type="reset" id="reset" name="Cancel" value="Cancel" />
+            </form>
+          </div>
+        </fieldset>
+
+        <div id="reminder">
+          <aside>
+            <div>
+             <h3><u>Reminder</u></h3>
+             <ol>
+              <li>Your information filled in the form <strong>MUST</strong> be authentic and correct. </li>
+              <li>No fake information is allowed. </li>
+              <li>Your email used must be the email you used to sign up your account on our website.</li>
+              <li>The verification number is required for point collecting system</li>
+              <li>Teenagers must be between 13 and 19 years old. </li>
+              <li>Kids must be 12 years old or below. </li>
+            </ol>
+            </div>
+          </aside>
+        </div>
+     </div>
+   </section>
+
+   <footer>
+     <div>
+       <h3>CUSTOMER SERVICE</h3>
+       &nbsp;&nbsp;&nbsp;&nbsp;Tel: <a href="tel:+6034567891">+6034567891</a><br/>
+       Email: <a href="mailto:cosy20@gmail.com">cosy20@gmail.com</a>
+     </div>
+
+     <div>
+       <h3 class="b">HELP</h3>
+       <ul>
+         <li id="a"><a href="co_faq.html" >FAQs</a></li>
+         <li id="a"><a href="co_membership.html" >Membership</a></li>
+         <li id="a"><a href="co_customerfdback.html" >Customer Feedback</a></li>
+       </ul>
+     </div>
+
+     <div>
+       <h3 class="b">DELIVERY</h3>
+       <ul>
+         <li id="a"><a href="co_pd.html">Product delivery</a></li>
+       </ul>
+       <a href="co_aboutus.html" class="about">ABOUT US</a>
+     </div>
+
+     <div>
+       <h3 class="b">STORE LOCATION</h3>
+       <address>
+         No.20, Jalan Jaya, 50050,<br/> 
+         Wilayah Persekutuan.
+       </address>
+
+       <p id="right">COME AND FOLLOW US:</p>
+       <a href="https://www.facebook.com/Cosy-218555486259797/"><img src="facebook.png" alt="FB icon" id="FB"></a>
+       <a href="#"><img src="instagram.png" alt="Instagram icon" id="Insta"></a>
+       <a href="#"><img src="twitterIcon.png" alt="Twitter icon" id="Twitter"></a>
+     </div>
+     <div class="footer-bottom">&copy; Cosy.com</div>
+   </footer>
+
+   <script src="girl.js"></script>
+   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+   <script type="text/javascript">
+    var realFBtn = document.getElementById("realF");
+    var cusBtn = document.getElementById("cusbtn");
+    var cusTxt = document.getElementById("custxt");
+
+    cusBtn.addEventListener("click", function() {
+      realFBtn.click();
+    });
+
+    realFBtn.addEventListener("change", function() {
+      if (realFBtn.value) {
+        cusTxt.innerHTML = realFBtn.value.match(/[\/\\]([\w\d\s\.\-\(\)]+)$/)[1];
+      }
+      else {
+        cusTxt.innerHTML = "No file chosen, yet.";
+      }
+    });
+
+    function writeName()
+    {
+      document.getElementById("firstName").value = prompt("Enter your FIRST name:", "First Name");
+      document.getElementById("lastName").value = prompt("Enter your LAST name:", "Last Name");
+    }
+
+    function init(){
+      document.forms[0].onsubmit = function() {
+      if (this.checkValidity()) alert("You have submitted the form successfully!");
+        return false;
+      }
+    }
+  </script>
+
+ </body>
+</html>

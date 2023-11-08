@@ -1,0 +1,107 @@
+@charset "utf-8";
+@font-face {
+   font-family: 'Bahnschrift Regular';
+   font-style: normal;
+   font-weight: normal;
+   src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+}
+
+/*
+   Cosy Style Sheet
+   Author: Hew Kar Eun
+   Date: //2020
+   
+   Filename:co_b&a.css
+
+*/
+
+.slingbag,.fashionbag,.wallet,.accessories h2{
+   text-align:center; 
+   text-decoration:underline overline;
+}
+
+body{
+   background-color: rgb(243, 232, 232);
+   background-repeat:default;
+   text-align:center;
+   display:block;
+ }
+
+footer{
+   clear:both;
+}
+
+h4{
+   text-align:center;
+   color:dark rgb(18, 18, 61);
+}
+
+div.newRow{
+   width:100%;
+   margin:20px;
+}
+
+section > div >.slingbag,.fashionbag,.wallet,.accessories{
+ float:left;
+ background-size:cover;
+ background-repeat:no-repeat;
+ background-position: 100%;
+ width:25%;
+ padding:40px;
+ margin-top:40px;
+ border-radius:5%;
+ height:100%;
+}
+
+.slingbag,.accessories{
+ margin-left:50px;
+}
+
+.fashionbag,.wallet{
+ margin-left: 110px;
+}
+
+.wallet,.accessories{
+ margin-bottom: 100px;
+}
+
+
+h2 > link, h2 > a:visited{
+ text-decoration: none;
+ color:black;
+}
+
+h2 > a:hover{
+ color:rgb(230, 55, 55);
+}
+
+div.slingbag{
+ background-image: url("co_slingbag.jpg"); 
+}
+div.fashionbag{
+ background-image: url("co_fashionbag.jpg");
+}
+div.wallet{
+ background-image: url("co_wallet.jpg");
+}
+div.accessories{
+ background-image: url("co_accessories.jpg");
+}
+
+
+div.bagandaccessories {
+ display:block; 
+ float:left; 
+ position:absolute;
+ right:6%;
+ top:8%;
+ width:30%;
+}
+
+.btn {
+   position: relative;
+   height: 34.5px;
+   background-color: white;
+   margin-top: 13.8px;
+   margin-left: 153px;
+}
