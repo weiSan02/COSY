@@ -1,0 +1,131 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+/*
+   TSS Typographic Style Sheet
+   Author: Lee Wei San
+   Filename: co_womenspg2c1.css
+
+*/
+
+
+article div a{
+    text-decoration: none;
+    color: black;
+}
+article div a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* content*/
+.back{
+    font-size: 30px;
+
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button a:hover {
+    text-decoration: underline;
+    color: rgb(30,49,46);
+}
+
+ .bottom{
+    float: left;
+    width: 300px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    border-color: rgb(123,139,111);
+    border-style: solid;
+ }
+
+ .Details {
+    float: right;
+    width: 520px;
+    height: 360px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    font-family: "URW Chancery L", cursive;
+    border-color: rgb(123,139,111);
+   border-style: dashed;
+}
+
+section{
+    overflow: hidden;
+  } 
+
+pre{font-family: "URW Chancery L", cursive;}
+
+.addtocart{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 300px;
+    border-color: rgb(134,150,167);
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: "URW Chancery L", cursive;
+    width: 200px;
+    height: 80px;
+}
+
+.addtocart:hover{
+    text-decoration: rgb(134,150,167)underline;
+    color: rgb(101,101,101);
+
+}
+
+.buynow{
+    text-align: center;
+    cursor: pointer;
+    margin-left: 10px;
+    border-color: rgb(134,150,167);
+    border-radius: 12px;
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+    font-family: "URW Chancery L", cursive;
+}
+
+.buynow:hover{
+    text-decoration: rgb(134,150,167)underline;
+    color: rgb(101,101,101);
+
+}
+
+@media screen and (max-width: 800px) {
+    .bottom{
+     margin-left: 150px;
+    }
+    .Details{
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+  }
+  .addtocart{
+      margin-left:100px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+    .bottom{
+        margin-left: 250px;
+       }
+       .Details{
+       margin-top: 0px;
+       margin-bottom: 50px;
+       margin-right: 150px;
+     }
+     .addtocart{
+         margin-left: 150px;
+     }
+    }

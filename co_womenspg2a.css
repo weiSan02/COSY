@@ -1,0 +1,160 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Bahnschrift Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Bahnschrift Regular'), url('BAHNSCHRIFT 1.woff') format('woff');
+    }
+
+    /*
+   TSS Typographic Style Sheet
+   Author: Lee Wei San
+   Filename: co_womenspg2a.css
+
+*/
+
+article div a{
+    text-decoration: none;
+    color: black;
+}
+article div a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* content*/
+.top{
+    background-image: url('topheader.jfif');
+    height: 160px;
+    font-size: 25px;
+    font-family: "URW Chancery L", cursive;
+  }
+  
+  .topheader {
+    text-decoration: none;
+    color: black;
+}
+.topheader a:hover {
+    text-decoration: underline;
+    color: rgb(30,49,46);
+}
+
+  .topheader{
+   border-style:outset;
+   border-width: 10px 10px;
+  }
+
+  *{box-sizing: border-box;}
+
+  .croptop{
+    margin-bottom: 90px;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 12px;
+    width: 210px;
+    float: left;
+  }
+
+  .hoodie{
+    margin-bottom: 90px;
+    margin-right: 30px;
+    margin-top: 40px;
+    font-size: 12px;
+    width: 210px;
+    float: left;
+  }
+
+  .tshirt{
+    margin-bottom: 95px;
+    margin-top: 40px;
+    margin-right: 30px;
+    font-size: 12px;
+    width: 210px;
+    float: left;
+
+  }
+  
+  .blouse{
+    margin-bottom: 100px;
+    margin-right: 30px;
+    height: 280px;
+    font-size: 10px;
+    width: 210px;
+    float: left;
+  }
+
+  .offshoulder{
+    margin-bottom: 100px;
+    margin-right: 30px;
+    font-size: 11px;
+    width: 210px;
+    height: 280px;
+    float: left;
+  }
+
+  .suit{
+    margin-bottom: 100px;
+    margin-right:30px;
+    font-size: 10px;
+    width: 210px;
+    height: 280px;
+    float: left;
+  }
+
+section div a{
+    text-decoration: none;
+    color: black;
+}
+section div a:hover {
+    text-decoration: underline;
+    color: rgb(30,49,46);
+}
+section >div{
+    border-color: rgb(123,139,111);
+   border-style: solid;
+ }
+
+ .carticon{
+   font-size:12px;
+ }
+@media only screen and (max-width: 800px) {
+  .hoodie{
+    margin-bottom: 90px;
+    margin-right: 1000px;
+    margin-top: 40px;
+  }
+  .tshirt{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 1000px;
+  }
+  .blouse{
+    margin-bottom: 100px;
+    margin-right: 1000px;
+  }
+  .suit{
+    margin-bottom: 100px;
+    margin-right:1000px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .hoodie{
+    margin-bottom: 90px;
+    margin-right: 1000px;
+    margin-top: 40px;
+  }
+  .tshirt{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 1000px;
+  }
+  .blouse{
+    margin-bottom: 100px;
+    margin-right: 1000px;
+  }
+  .suit{
+    margin-bottom: 100px;
+    margin-right:1000px;
+  }
+}
